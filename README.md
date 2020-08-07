@@ -8,6 +8,6 @@ In order to run redis cluster you have to do the following:
  - Install redis-server by issuing > apt-get install redis-server -y
  - Stop running instance of redis-server which is run after installing it
  - Clone this repository to your redis server
- - Run > ./start-everything.sh 127.0.0.1
+ - Run  ```./start-everything.sh 127.0.0.1```
 
-Note that > ./start-everything.sh script takes one parameter which is IP address of server.
+Note that  ```./start-everything.sh``` script takes one parameter which is IP address of server.
